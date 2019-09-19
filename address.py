@@ -15,9 +15,6 @@ def main():
 
     for book in address_books:
         print(f'{book["name"]} 〒{book["zipcode"]} {book["location"]}')
-    # for book in address_books:
-    #     for key in book:
-    #         print(book[key])
 
 
 if __name__ == '__main__':
