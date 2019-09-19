@@ -13,8 +13,8 @@ def main():
          'zipcode': '5560002'},
     ]
 
-    for book in address_books:
-        print(f'{book["name"]} 〒{book["zipcode"]} {book["location"]}')
+    for address in address_books:
+        print(f'{address["name"]} 〒{address["zipcode"]} {address["location"]}')
 
 
 if __name__ == '__main__':
